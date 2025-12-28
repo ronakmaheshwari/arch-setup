@@ -1,0 +1,1 @@
+/home/ronak/.config/omarchy/current/theme/neovim.lua

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+queue=$(playerctl --player=spotify metadata --format "{{xesam:title}} by {{xesam:artist}}")
+notify-send -t 5000 "Spotify" "$queue"
